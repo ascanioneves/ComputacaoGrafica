@@ -5,6 +5,8 @@ using namespace std;
 
 #define PI acos(-1)
 
+// Aluno: Ascânio Sávio de Araujo Neves
+// comandos: a, d
 struct vertex
 {
     float x, y;
@@ -87,7 +89,7 @@ void display()
 }
 void keyboard(unsigned char key, int x, int y)
 {
-    if (key == 's' || key == 'S')
+    if (key == 'd' || key == 'D')
     {
         for (auto &i : v)
         {
